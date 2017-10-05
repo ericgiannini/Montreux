@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+/* google font use this site */
+body{
+font-family: 'Lato', sans-serif;
+	background: #c36eff;
+}
+.desktop-img{
+	 margin-top: 5%;
+}
+/* contact-form  css*/
+.form-control {
+  background-color: #dc9eff;
+ 
+  border: medium none;
+  border-radius: 0;
+  box-shadow:0px;
+  color: #444444;
+   font-size: 14px;
+  height: 43px;
+ font-style: italic;
+  margin-bottom: 22px;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+}
+textarea{
+	resize:none;
+}
+form {
+  margin: 4% auto 0;
+  width: 76%;
+    
+    transition: 0.9s;
+}
+.btn.btn-theme {
+  border: medium none;
+  border-radius: 0;
+  display: block;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 10px 31px;
+  font-weight: 500;
+  background:#DC9EFF;
+  color:#999;
+}
+.form-control:focus {
+  outline: 0 none;
+  box-shadow: none ;
+}
+.btn.btn-theme:hover{
+	
+	color:#C36EFF;
+}
+
+img {
+  margin: auto;
+  width: 100%;
+}
+/* mobile view css*/
+@media only screen and (max-width: 767px) {
+	form{width: 100%;}
+}
+/* table view css*/
+@media only screen and (max-width: 1160px) {
+
+form{width: 90%;}
+}
+.wrap {
+  padding-bottom: 44px;
+}
